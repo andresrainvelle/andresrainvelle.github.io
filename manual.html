@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operating the Nursebot</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #eaf2fb;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:#beedff;
+      padding: 5px 20px;
+    }
+
+    .navbar .logo img {
+      height: 50px;
+    }
+
+    .navbar .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: rgb(28, 45, 52);
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+
+    /* Header */
+    header {
+      background: linear-gradient(to bottom, #087ca7, #1d9fd3);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    /* Steps Container */
+    .container {
+      padding: 30px 20px;
+    }
+
+    .step-section {
+      background-color: #c1f0f2;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .step-text {
+      flex: 1 1 300px;
+    }
+
+    .step-title {
+      font-weight: bold;
+      background-color: #ffffff;
+      padding: 8px 12px;
+      border: 6px solid #45c4ff;
+      margin-bottom: 10px;
+      height: 45px;
+      width:100px;
+      text-align: Left;
+    }
+
+    .step-image {
+      flex: 1 1 1px;
+      text-align: center;
+    }
+
+    .step-image img {
+      width: 40%;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #0a7abf;
+      color: white;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .step-section {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation with Logo -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="log.png" alt="Nursebot Logo">
+    </div>
+    <div class="nav-links">
+      <a href="index.html#">HOME</a>
+      <a href="try2.html">ABOUT</a>
+      <a href="manual.html">GALLERY</a>
+      <a href="manual.html">MANUAL</a>
+      <a href="contact1.html">CONTACTS</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    OPERATING THE NURSEBOT
+  </header>
+
+  <!-- Steps -->
+  <div class="container">
+
+    <!-- Repeat this structure for each step -->
+    <div class="step-section">
+      <div class="step-image">
+        <img src="step1.png" alt="Step 1">
+      </div>
+      <div class="step-text">
+        <div class="step-title">STEP 1:</div>
+        <p>To activate (ON) the machine, plug in the AC male cable to an electrical outlet or AC power source and switch on the power switch.</p>
+      </div>
+    </div>
+
+    <div class="step-section">
+      <div class="step-image">
+        <img src="step2.png" alt="Step 2">
+      </div>
+      <div class="step-text">
+        <div class="step-title">STEP 2:</div>
+        <p>Step on the weighing scale and press the weight button.</p>
+      </div>
+    </div>
+
+    <div class="step-section">
+      <div class="step-text">
+        <div class="step-title">STEP 3:</div>
+        <p>Position yourself at the height measuring system and press the height button. Make sure your head is aligned properly with the height sensor.</p>
+      </div>
+      <div class="step-image">
+        <img src="step3.png" alt="Step 3">
+      </div>
+    </div>
+
+    <div class="step-section">
+      <div class="step-text">
+        <div class="step-title">STEP 4:</div>
+        <p>Place your forehead or wrist at the temperature sensor with a one (1) inch gap and then press the temperature button.</p>
+      </div>
+      <div class="step-image">
+        <img src="bins.jpg" alt="Step 4">
+      </div>
+    </div>
+
+    <div class="step-section">
+      <div class="step-image">
+        <img src="temp.png" alt="Step 5">
+      </div>
+      <div class="step-text">
+
+        <div class="step-title">STEP 5:</div>
+        <p>Wait for the process to print the results.</p>
+      </div>
+    </div>
+
+    <div class="step-section">
+      <div class="step-image">
+        <img src="stop.png" alt="Step 6">
+      </div>
+      <div class="step-text">
+        <div class="step-title">STEP 6:</div>
+        <p>To reset the system, press the stop button first before pressing the reset button.</p>
+      </div>
+    </div>
+
+  
+  </div>
+
+  <footer>
+    &copy; 2025 Nursebot Operations Manual
+  </footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E1EEFF;
+  color: #000;
+}
+
+header {
+  background-color: #E1EEFF;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  height: 60px;
+  margin-right: auto;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-title {
+  background-color: #00BFBA;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.gallery, .documentation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  background-color: #E1EEFF;
+}
+
+.gallery img, .documentation img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="log.png" alt="Logo" class="logo">
+    <nav>
+      <a href="index.html#">HOME</a>
+      <a href="try2.html">ABOUT</a>
+      <a href="manual.html">GALLERY</a>
+      <a href="manual.html">MANUAL</a>
+      <a href="contact1.html">CONTACTS</a>
+    </nav>
+  </header>
+
+  <section class="section-title">
+    <h2>GALLERY</h2>
+  </section>
+
+  <section class="gallery">
+    <img src="size.png" alt="Gallery Image 1">
+    <img src="orto.png" alt="Gallery Image 2">
+  </section>
+
+  <section class="section-title">
+    <h2>DOCUMENTATION</h2>
+  </section>
+
+  <section class="documentation">
+    <img src="power.png" alt="Doc 1">
+    <img src="cs.png" alt="Doc 2">
+    <img src="ardu.png" alt="Doc 3">
+    <img src="pin.png" alt="Doc 4">
+    <img src="panel.png" alt="Doc 5">
+  </section>
+
+</body>
+</html>

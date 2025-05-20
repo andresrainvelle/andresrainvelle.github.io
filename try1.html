@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NurseBot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f0f4ff;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: white;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #00BFBA;
+      text-align: center;
+      color: white;
+      padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .button {
+      margin-top: 2rem;
+      background: white;
+      border: none;
+      color: #00BFBA;
+      padding: 0.75rem 2rem;
+      border-radius: 5px;
+      font-size: 1rem;
+	text-decoration: none; 
+	cursor: pointer;
+     
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      background-color: #eaf1ff;
+    }
+
+    .section img {
+      height: 250px;
+      margin-right: 2rem;
+    }
+
+    .section-text {
+      max-width: 1000px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 2rem;
+      
+    }
+
+    .section-text h2 {
+      color: #333;
+      font-weight: bold;
+    }
+
+    .features-3, .features-4 {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      background: #00BFBA;
+      flex-wrap: wrap;
+    }
+
+    .feature-box {
+      background: white;
+      border-radius: 10px;
+      padding: 2.5rem;
+      text-align: center;
+      max-width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+    }
+
+    .feature-box:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: 0.5s ease;
+  color: rgb(3,56,64);
+}
+
+
+    .feature-box img {
+      height: 40px;
+      margin-bottom: 1rem;
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      align-text: center;
+      justify-content: space-around;
+      background: #002c30;
+      color: white;
+      padding: 2rem;
+      border-radius: 20px;
+      margin: 2rem;
+      font-size: 25px;
+      line-height: 1.25;
+    }
+
+    .faq {
+      padding: 2rem;
+      background-color: #eaf1ff;
+    }
+
+    .faq h2 {
+      margin-bottom: 1rem;
+    }
+
+    .faq-item {
+      background: #00BFBA;
+      color: white;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0.5rem 1rem;
+      background: white;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #002c30;
+      color: white;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="log.png" alt="NurseBot Logo">
+    <nav>
+      <a href="index.html#">HOME</a>
+      <a href="try2.html">ABOUT</a>
+      <a href="manual.html">GALLERY</a>
+      <a href="manual.html">MANUAL</a>
+      <a href="contact1.html">CONTACTS</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h1><span style="color: #333">Automated</span><br><strong>NURSEBOT</strong></h1>
+	<br>
+    <a href="file:///C:/Users/Rain/OneDrive/Desktop/try2.html" class="button">Learn More</a>
+  </section>
+
+  <section class="section">
+  <img src="left.png" alt="NurseBot" class="left-image">
+  
+  <div class="section-text">
+    <h2>NURSEBOT</h2>
+    <p>The Automated NurseBot is a compact, multifunctional machine designed to assist in routine patient check-ups by measuring vital signs such as height, weight, and body temperature. It features a number queuing system and prints data slips, helping to streamline patient flow and reduce workload for nurses. The NurseBot is a cost-effective, user-friendly innovation developed to improve healthcare service efficiency, particularly in clinics and resource-limited settings.</p>
+  </div>
+
+  <img src="right.png">
+</section>
+
+  <section class="features-3">
+    <div class="feature-box">
+      <img src="Nurse.png" alt="Icon">
+      <p>Provides a solution to reduce nurses' workload and improve workflow.</p>
+    </div>
+    <div class="feature-box">
+      <img src="Timer.png" alt="Icon">
+      <p>Reduces patient waiting times and streamlines check-up procedures.</p>
+    </div>
+    <div class="feature-box">
+      <img src="Light.png" alt="Icon">
+      <p>Encourages innovation and the integration of technology in healthcare.</p>
+    </div>
+  </section>
+
+  <section class="banner">
+    <img src="doc.png" alt="Doctor" style="height: 200px;">
+    <div>
+      <h2>NURSEBOT<br><em>built to care!</em></h2>
+      <p>Empowering healthcare with precision, compassion, and innovation.</p>
+    </div>
+    <img src="right.png" alt="NurseBot" style="height: 200px;">
+  </section>
+
+  <section class="features-4">
+    <div class="feature-box">
+      <img src="gear.png" alt="Icon">
+      <strong>PERFORMANCE</strong>
+      <p>Effectively measures vital signs such as height, weight, and temperature.</p>
+    </div>
+    <div class="feature-box">
+      <img src="box.png" alt="Icon">
+      <strong>FEATURES</strong>
+      <p>Includes an automated sensor system, queuing, and thermal printing.</p>
+    </div>
+    <div class="feature-box">
+      <img src="Wrench.png" alt="Icon">
+      <strong>SERVICEABILITY</strong>
+      <p>The machine is designed with accessible components.</p>
+    </div>
+    <div class="feature-box">
+      <img src="Star.png" alt="Icon">
+      <strong>AESTHETIC</strong>
+      <p>The NurseBot has a clean, compact, and user-friendly design.</p>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>FAQ'S</h2>
+
+    <div class="faq-item" onclick="toggleFAQ(this)">What is the weight limit that the NurseBot can measure?<div class="faq-answer">The NurseBot is designed to accurately measure patients up to 200 kilograms. It may not provide precise readings beyond this limit.
+</div></div>
+
+    <div class="faq-item" onclick="toggleFAQ(this)">What is the height range the NurseBot can measure?<div class="faq-answer">The NurseBot can measure individuals ranging from 6 ft and not below 4 ft in height.
+</div></div>
+
+<div class="faq-item" onclick="toggleFAQ(this)">Does the NurseBot store patient data?<div class="faq-answer">The NurseBot does not permanently store patient data unless integrated with a hospital's database system. For standalone use, data is processed temporarily for receipt generation and is not saved.
+</div></div>
+   
+<div class="faq-item" onclick="toggleFAQ(this)">How long does it take for the NurseBot to complete a full check-up per patient?
+<div class="faq-answer">On average, it takes 2–3 minutes per patient for the NurseBot to complete all vital sign measurements and provide a printed receipt or priority number.
+</div></div>
+
+<div class="faq-item" onclick="toggleFAQ(this)">What is the main purpose of the NurseBot?
+<div class="faq-answer">The NurseBot is designed to streamline routine patient check-up tasks such as measuring vital signs (weight, height, and temperature) assigning priority numbers to improve patient flow and reduce waiting time in healthcare facilities.
+</div></div>
+
+<div class="faq-item" onclick="toggleFAQ(this)">The push button is unresponsive. What should I check first? <div class="faq-answer">Inspect for loose or detached wires and verify if the connected microcontroller is powered on.
+</div></div>
+
+<div class="faq-item" onclick="toggleFAQ(this)">Can I perform maintenance without technical experience? <div class="faq-answer">Basic maintenance like wire checking and cleaning can be done by operators, but internal issues or replacements should be handled by technical personnel.
+</div></div>
+
+
+
+  </section>
+
+  <footer>
+    ©2025 NurseBot | All Rights Reserved
+  </footer>
+
+  <script>
+    function toggleFAQ(item) {
+      const answer = item.querySelector('.faq-answer');
+      answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>

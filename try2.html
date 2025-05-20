@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated NurseBot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #E8F9FA;
+      color: #000;
+    }
+    header {
+      background-color: #00BFBA;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero img {
+      max-width: 110%;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .subtext {
+      font-weight: 400;
+      text-align: center;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      gap: 20px;
+    }
+    .card {
+      flex: 1;
+      border: 2px solid #00BFBA;
+      padding: 20px;
+      background-color: #fff;
+    }
+    .card h3 {
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+    .card p {
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .device-section {
+      margin-top: 60px;
+    }
+    .device-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 40px 0;
+    }
+    .device-item img {
+      width: 200px;
+      height: auto;
+    }
+    .device-text {
+      flex: 1;
+    }
+    .device-text h4 {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .device-text p {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  
+
+footer {
+      text-align: center;
+      padding: 1rem;
+      background: #002c30;
+      color: white;
+      font-size: 0.8rem;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="log.png" alt="Logo" height="50">
+    <nav>
+      <a href="index.html#">HOME</a>
+      <a href="try2.html">ABOUT</a>
+      <a href="manual.html">GALLERY</a>
+      <a href="manual.html">MANUAL</a>
+      <a href="contact1.html">CONTACTS</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="img.png" alt="NurseBot Image">
+  </section>
+  <section class="section">
+    <h2>ABOUT US</h2>
+    <p class="subtext">The Automated NurseBot represents a collaboration between Graphics and Design (GD) and Mechatronics (MX) Students of Cebu Technological University - Main Campus, combining their expertise to create a device that optimizes patient flow in medical settings.
+This innovative bot is designed to streamline routine patient measurements, such as weight, height, temperature, and blood pressure. By integrating these functions into one compact unit, the NurseBot reduces the workload of medical staff, minimizes patient waiting times, and ensures accurate data collection.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>VISION</h3>
+        <p>To revolutionize the healthcare experience by introducing efficient, automated systems that streamline patient check-ups, enhance workflow, and support healthcare professionals in providing timely and quality care.</p>
+      </div>
+      <div class="card">
+        <h3>MISSION</h3>
+        <p>Our mission is to design and implement the Automated NurseBot, a solution that automates routine medical tasks like vital sign measurements, data processing, and patient prioritization. By leveraging automation and cutting-edge technology, we aim to reduce patient waiting times, alleviate the workload of healthcare staff, and improve the overall quality of care in medical facilities.</p>
+      </div>
+      <div class="card">
+        <h3>GOALS</h3>
+        <p>To develop a cost-effective, efficient, and user-friendly Automated NurseBot capable of measuring weight, height, and temperature while processing patient data in real-time.
+To improve patient flow and reduce wait times by integrating a first-come, first-serve queuing system with automated data slips.
+To provide a reliable and easy-to-use tool that supports medical staff in focusing on more critical tasks, enhancing patient care.
+To assess the NurseBot's performance, features, serviceability, and aesthetics to ensure its acceptance in real-world medical settings.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section device-section">
+    <h2>THE AUTOMATED NURSEBOT</h2>
+    <div class="device-item">
+      <img src="wei.png" alt="Weighing Scale">
+      <div class="device-text">
+        <h4>WEIGHING SCALE</h4>
+        <p>The NurseBot’s weighing scale features a protective enclosure to secure the load sensors and ensure accurate weight measurements. Capable of measuring up to 200 kg, the scale uses four 50 kg load cells to evenly distribute and detect the patient’s weight. This design guarantees stability, reliability, and long-term durability, ensuring both accurate measurements and user comfort in the NurseBot system.</p>
+      </div>
+    </div>
+    <div class="device-item">
+      <img src="hei.png" alt="Height Scale">
+      <div class="device-text">
+        <h4>HEIGHT SCALE</h4>
+        <p>The NurseBot’s height scale uses an ultrasonic sensor mounted on a 6-foot vertical pole to automatically measure patient height. Patients simply stand beneath the sensor and press a button to start the measurement. The ultrasonic sensor emits waves and measures the echo’s return time to determine height. A protective case covers the sensor, preventing dust and damage while maintaining functionality. The sensor is securely mounted with aluminum rods for stability, and a lock pin ensures consistent alignment during use.</p>
+      </div>
+    </div>
+    <div class="device-item">
+      <img src="temp.png" alt="Temperature Sensor">
+      <div class="device-text">
+        <h4>THE TEMPERATURE SENSOR</h4>
+        <p>The NurseBot’s temperature sensor utilizes the MLX90614 infrared sensor to accurately measure body temperature without physical contact, ensuring safe and hygienic readings. Integrated into the system, the sensor provides a minimum reading of 32°C for precise temperature monitoring. The sensor is housed in a protective case that allows for contactless measurements, enhancing user comfort and safety. This feature contributes to efficient patient screening, making it an essential tool for reliable healthcare assessments in the NurseBot system.</p>
+      </div>
+    </div>
+    <div class="device-item">
+      <img src="lcd.png" alt="LCD and Thermal Printer">
+      <div class="device-text">
+        <h4>LCD AND THERMAL PRINTER</h4>
+        <p>The NurseBot’s thermal printer generates quick, hard copies of patient data, including vitals and weight measurements, ensuring efficient record-keeping. Positioned at a 121-degree angle, the LCD, thermal printer, and buttons are ergonomically placed for optimal standing interaction. This angle improves screen visibility and reduces strain, allowing users to comfortably view instructions and results at eye level. The design ensures a user-friendly experience, providing reliable, printed documentation for healthcare professionals during patient screenings.</p>
+      </div>
+    </div>
+    <div class="device-item">
+      <img src="cp.png" alt="Control Panel">
+      <div class="device-text">
+        <h4>THE CONTROL PANEL</h4>
+        <p>The NurseBot's control panel manages the input, processing, and output of the system. It houses key components like the Arduino Mega and Uno microcontrollers, which process and transmit data. A 12V DC power supply powers the system, while DC-DC buck converters adjust voltages for different components. Wiring is organized within PVC ducts, and modular connectors ensure secure electrical connections, providing stable and efficient performance throughout the system.</p>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
